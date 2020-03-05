@@ -1,0 +1,98 @@
+@import "variables";
+
+body,
+html {
+  background: $background-color;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $main-font, sans-serif;
+  color: $black;
+}
+
+a,
+p,
+span {
+  font-family: $secondary-font, sans-serif;
+  color: $secondary-black;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding: 1.45rem 1.0875rem;
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+
+    a {
+      font-size: 1.5rem;
+      font-family: $main-font, sans-serif;
+
+      &:after,
+      &:before {
+        content: "\00a0\00a0";
+      }
+
+      &:hover {
+        text-decoration: line-through;
+      }
+
+      &.active {
+        color: $active-link;
+        text-decoration: line-through;
+      }
+    }
+  }
+}
+/********************Contact Page**********************/
+.contact__wrapper {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  h1 {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 0;
+  }
+
+  > p {
+    font-size: 1.5rem;
+  }
+
+  .contact__links {
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 500px;
+    margin: 0 auto;
+
+    a {
+      color: #e16162;
+    }
+  }
+}
+/********************End Contact Page**********************/
+
+/********************FOOTER**********************/
+footer {
+  position: fixed;
+  bottom: 0;
+  font-family: $secondary-font, sans-serif;
+}
+/********************End FOOTER**********************/
