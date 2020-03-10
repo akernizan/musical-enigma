@@ -145,6 +145,7 @@ header {
 .homepage__wrapper {
   display: flex;
   flex-direction: row;
+  padding: 20px;
 
   @include for-phone-only {
     flex-direction: column;

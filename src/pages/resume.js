@@ -17,7 +17,7 @@ const Resume = () => (
       <ul>
         <li>Helped maintain Shopify site using Liquid, jQuery, and yarn.</li>
         <li>Helped refactor and remove redundant code.</li>
-        <li>Collaborated with Product and Design teams to replicate design updates.</li>
+        <li>Collaborated with Product and Design teams to replicate designs from Abstract and Sketch.</li>
         <li>Helped transition Shopify front-end to reactjs via Gatsbyjs and contentful.</li>
       </ul>
       <p className="resume__job-title">Software Engineer, BounceX, NY,NY – Nov 2016 – Nov 2019</p>
