@@ -13,13 +13,13 @@ const IndexPage = () => (
 
     <div className="homepage__wrapper">
       <div className="homepage__info">
-        <h1>Hi, I'm Akosua Kernizan.</h1>
-        <p>I am a Web Developer based in NYC. <br/>
-        4 years of professional experience on the front end. <br/>
+        <h1>Hi, I'm Akosua.</h1>
+        <p>I am a Web Developer based in NYC.
+        I have 4 years of professional experience on the front end.
         Available to solve problems, play with pixels, and expand my mind.</p>
       </div>
       <div  className="homepage__image">
-          {/*<Image />*/}
+        <Image />
       </div>
     </div>
   </Layout>
