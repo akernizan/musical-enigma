@@ -13,6 +13,7 @@ const Contact = () => (
       <div className="contact__links">
         <a href="mailto:akosuakernizan@gmail.com">Email Me</a>
         <a href="https://www.linkedin.com/in/akosuakernizan/">Linkedin</a>
+        <a href="https://github.com/akernizan">Github</a>
       </div>
     </div>
   </Layout>
