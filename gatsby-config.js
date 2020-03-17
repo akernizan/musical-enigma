@@ -1,3 +1,8 @@
+const dotenv = require('dotenv');
+
+dotenv.config();
+const e = process.env;
+
 module.exports = {
   siteMetadata: {
     title: `Akosua Kernizan`,
