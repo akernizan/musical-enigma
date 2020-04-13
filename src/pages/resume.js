@@ -10,7 +10,7 @@ const Resume = () => (
       <h1>Resume</h1>
 
       <h3>Technologies</h3>
-      <p>JavaScript, jQuery, HTML5, CSS3, Sass, Git, REST/SOAP APIs, Ajax, SQL, Email Service Provider API’s, PHP, NPM, Yarn, Reactjs, Agile Methodologies, Gatsbyjs, Contentful, Selenium, Cypress, Jira, TDD, Github, Netlify</p>
+      <p>JavaScript, jQuery, HTML5, CSS3, SCSS, PHP, Git/Github, REST/SOAP APIs, Ajax, SQL, NPM, Yarn, Reactjs, Agile Methodologies, Gatsbyjs, Contentful, Selenium, Cypress, Jira, Netlify</p>
 
       <h3>Experience</h3>
       <p className="resume__job-title">Fullstack Developer, Buffy, NY, NY – Nov 2019 – Feb 2020</p>
