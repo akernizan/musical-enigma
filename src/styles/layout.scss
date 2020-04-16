@@ -39,7 +39,7 @@ header {
 
   nav {
     display: flex;
-    justify-content: space-around;
+    justify-content:  center;
 
     a {
       font-size: 1.5rem;
@@ -70,7 +70,6 @@ header {
   width: 90%;
   margin: 0 auto;
   padding: 30px 40px;
-
   @include for-phone-only {
     padding: 0;
   }
@@ -82,7 +81,7 @@ header {
     margin-top: 0;
   }
 
-   p {
+  p {
     font-size: 1.5rem;
     margin-top: 15px;
     margin-bottom: 0;
@@ -99,7 +98,6 @@ header {
     align-items: center;
     width: 500px;
     margin: 20px auto;
-
     @include for-phone-only {
       width: 90%;
       font-size: 1.75rem;
@@ -111,14 +109,13 @@ header {
     }
   }
 }
-
+/********************Resume Page**********************/
 .resume__wrapper {
   padding: 30px;
   background: $white;
   border-radius: 6px;
   width: 90%;
   margin: 20px auto;
-
   @include for-phone-only {
     padding: 15px;
   }
@@ -141,12 +138,11 @@ header {
     }
   }
 }
-
+/******************** Homepage **********************/
 .homepage__wrapper {
   display: flex;
   flex-direction: row;
   padding: 20px;
-
   @include for-phone-only {
     flex-direction: column;
     padding-bottom: 20px;
@@ -173,7 +169,6 @@ header {
   h1 {
     font-size: 7rem;
     margin-bottom: 0;
-
     @include for-phone-only {
       margin-top: 30px;
     }
@@ -181,5 +176,38 @@ header {
 
   p {
     font-size: 2rem;
+  }
+}
+
+
+/******************** Links **********************/
+
+.links__container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-top: 0px;
+  }
+
+  .link__button {
+    width: 80%;
+    max-width: 500px;
+    border: 3px solid $active-link;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+
+    a{
+      font-size: 2rem;
+    }
   }
 }

@@ -1,10 +1,26 @@
+const dotenv = require('dotenv');
+
+dotenv.config();
+const e = process.env;
+
 module.exports = {
   siteMetadata: {
     title: `Akosua Kernizan`,
-    description: `personal website built on gatsbyjs`,
-    author: `Akosua`,
+    description: `Akosua Kernizan's personal website`,
+    author: `Akosua Kernizan`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: e.GOOGLE_ANALYTICS_ID,
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: true,
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 0,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
