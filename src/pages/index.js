@@ -18,9 +18,6 @@ const IndexPage = () => (
         I have 4 years of professional experience on the front end.
         Available to solve problems, play with pixels, and expand my mind.</p>
       </div>
-      <div  className="homepage__image">
-        <Image />
-      </div>
     </div>
   </Layout>
 )
