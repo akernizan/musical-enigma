@@ -1,25 +1,21 @@
 import React from "react";
 import { Link } from "gatsby";
+import Resume from "../documnets/resume.pdf";
 
 const Header = () => (
-  <header className='max-auto bg-indigo-300'>
+  <header className='max-auto bg-blue-400'>
     <nav className='flex justify-between'>
       <div className='flex flex-row p-8 text-white'>
-        <Link to='/' activeClassName='active' className='pr-5'>
+        <Link to='/' activeClassName='active' className='pr-5 text-xl	'>
           About
         </Link>
-        <Link to='/resume' activeClassName='active' className='pr-5'>
-          Resume
-        </Link>
-        <Link to='/contact' activeClassName='active' className='pr-5'>
-          Contact
-        </Link>
-        {/* <a
-          href='https://tech-blog.netlify.com/'
+        <a
+          href={Resume}
           target='_blank'
-          rel='noopener noreferrer'>
-          Blog
-        </a> */}
+          rel='noopener noreferrer'
+          className='pr-5 text-xl'>
+          Resume
+        </a>
       </div>
     </nav>
   </header>
