@@ -12,7 +12,7 @@ const Resume = ({ color }) => {
             <li className='-mb-px mr-2 last:mr-0 flex-auto text-center'>
               <a
                 className={
-                  "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
+                  "text-sm font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 1
                     ? "text-white bg-" + color + "-600"
                     : "text-" + color + "-600 bg-white")
@@ -24,13 +24,13 @@ const Resume = ({ color }) => {
                 data-toggle='tab'
                 href='#link1'
                 role='tablist'>
-                Buffy | Fullstack Engineer, New York, NY 2019 - 2020
+                Buffy
               </a>
             </li>
             <li className='-mb-px mr-2 last:mr-0 flex-auto text-center'>
               <a
                 className={
-                  "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
+                  "text-sm font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 2
                     ? "text-white bg-" + color + "-600"
                     : "text-" + color + "-600 bg-white")
@@ -42,13 +42,13 @@ const Resume = ({ color }) => {
                 data-toggle='tab'
                 href='#link2'
                 role='tablist'>
-                BounceX | Software Engineer, New York, NY 2016 - 2019
+                BounceX
               </a>
             </li>
             <li className='-mb-px mr-2 last:mr-0 flex-auto text-center'>
               <a
                 className={
-                  "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
+                  "text-sm font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 3
                     ? "text-white bg-" + color + "-600"
                     : "text-" + color + "-600 bg-white")
@@ -60,7 +60,7 @@ const Resume = ({ color }) => {
                 data-toggle='tab'
                 href='#link3'
                 role='tablist'>
-                Sesame Workshop | Frontend Developer, New York, NY 2015 - 2016
+                Sesame Workshop
               </a>
             </li>
           </ul>
@@ -68,6 +68,7 @@ const Resume = ({ color }) => {
             <div className='px-4 py-5 flex-auto'>
               <div className='tab-content tab-space'>
                 <div className={openTab === 1 ? "block" : "hidden"} id='link1'>
+                  <h3>Fullstack Engineer, New York, NY 2019 - 2020</h3>
                   <ul className='list-disc list-inside'>
                     <li>
                       Optimized legacy codebase with Gatsbyjs and Contentful to
@@ -91,6 +92,7 @@ const Resume = ({ color }) => {
                   </ul>
                 </div>
                 <div className={openTab === 2 ? "block" : "hidden"} id='link2'>
+                  <h3>Software Engineer, New York, NY 2016 - 2019</h3>
                   <ul className='list-disc list-inside'>
                     <li>
                       Produced GDPR compliant custom client campaign
@@ -124,6 +126,7 @@ const Resume = ({ color }) => {
                   </ul>
                 </div>
                 <div className={openTab === 3 ? "block" : "hidden"} id='link3'>
+                  <h3>Frontend Developer, New York, NY 2015 - 2016</h3>
                   <ul className='list-disc list-inside'>
                     <li>
                       Constructed "Special Projects Department" portfolio site
